@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Trivia de Dibujos Animados</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <h1>Cartoon Network</h1>
+      <form id="options1">
+        <div id="question1">
+          <h3>
+            1. ¿Quién es el personaje principal de "Las Chicas Superpoderosas"?
+          </h3>
+        </div>
+        <label>
+          <input type="radio" name="question4" value="false" /> A) Mojo Jojo
+          Estrella
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="question4" value="true" /> B) Bombón </label
+        ><br />
+        <label>
+          <input type="radio" name="question4" value="false" /> C) Burbuja
+          Mejillas </label
+        ><br />
+
+        <div id="questions">
+          <h3>
+            2. En "El Laboratorio de Dexter", ¿qué objeto usa Dexter para
+            ocultar su laboratorio secreto?
+          </h3>
+        </div>
+        <div id="options2">
+          <label>
+            <input type="radio" name="question5" value="true" /> A) Un armario </label
+          ><br />
+          <label>
+            <input type="radio" name="question5" value="false" /> B) Un árbol </label
+          ><br />
+          <label>
+            <input type="radio" name="question5" value="false" /> C) Un garaje </label
+          ><br />
+        </div>
+
+        <div id="question3">
+          <h3>3. En "Un Show Más", ¿qué tipo de animal es Rigby?</h3>
+        </div>
+        <div id="options3">
+          <label>
+            <input type="radio" name="question6" value="false" /> A) Oso </label
+          ><br />
+          <label>
+            <input type="radio" name="question6" value="false" /> B) Pájaro </label
+          ><br />
+          <label>
+            <input type="radio" name="question6" value="true" /> C) Mapache </label
+          ><br />
+        </div>
+      </form>
+      <br />
+      <button id="verificar" onclick="validar()">Verificar</button>
+      <br />
+      <a href="index.html">Volver a jugar</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
